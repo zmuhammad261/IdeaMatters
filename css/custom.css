@@ -19,6 +19,10 @@ footer{
 
 }
 
+#main-screen, canvas{
+	height: 100vh;
+}
+
 #point{
 	overflow: hidden;
 }
@@ -43,13 +47,15 @@ footer{
 #canvas{
 	margin-top: 0;
 	margin-bottom: 0;
+	width: 100%; 
 }
 
 #ideas{
 	background-color: #354b60;
 	background-image: url(tm_background.png);
 	color: white;
-	padding-bottom: 40px;
+	padding: 50px 0;
+	overflow: hidden;
 }
 
 
@@ -196,6 +202,7 @@ font-size:12px;
 	background-image: url('../images/universe.jpg');
 	color: white;
 	margin-bottom: 0;
+	height: 100vh;
 }
 
 .jumbotron h1, .navbar button, ul.nav{
